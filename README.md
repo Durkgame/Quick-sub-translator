@@ -1,2 +1,25 @@
 # Quick-sub-translator
-Calling a side-transtlator in one click during web-surfing. And in English I write, because it looks beautiful.
+##### Окей, вы здесь.
+Если вы оказались здесь не случайно, то, вероятнее всего, мы знакомы и вы уже видели subj.
+
+В остальных случаях: 
+<dl>
+  <dt>Cуть - быстрый вызов переводчика во время интернет-серфинга в удобном формате.</dt>
+  <dd>Скрипт для быстрого вызова нового активного окна текущего браузера с заданными размерами.</dd>
+</dl>  
+
+## Как это выглядит
+
+## Установка
+1. Открыть **fast-translate.js** - [click!](https://raw.githubusercontent.com/Durkgame/Quick-sub-translator/master/fast-translate.js)
+2. Добавить код в закладки:
+    * `Ctrl+D` > 'Изменить...' > Вставить код в поле URL;
+    * [gif](#)
+
+## Настройка  
+Комфортные для вас значения в полях top, left, width и height(вместо Math-функции). Все :D
+
+---
+
+> Слишком легко, чтобы делать нормальную документацию.  
+> Слишком полезно, чтобы не поделиться.
