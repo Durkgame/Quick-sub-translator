@@ -23,6 +23,6 @@ function openSubTranslator(){
 			return fromTo + encodeURIComponent(str);
 		};
 	};
-	var x = window.open('https://translate.google.ru/' + detectRUorENG(window.getSelection().toString()), 'standalone', 'toolbar=no,location=no,scrollbars=yes,height=' + Math.min(h, screen.availHeight) + ',width=' + Math.min(w, screen.availWidth) + ',left=' + Math.max(0, (screen.availWidth - w) / 2) + ',top=' + Math.min(screen.availHeight - h - 65, screen.availHeight / 8 * 5));
+	var x = window.open('https://translate.google.ru/' + detectRUorENG(window.getSelection().toString()), 'standalone', 'toolbar=no,location=no,scrollbars=yes,height=' + Math.min(h, screen.availHeight) + ',width=' + screen.availWidth + ',left=' + Math.max(0, (screen.availWidth - w) / 2) + ',top=' + Math.min(screen.availHeight - h - 65, screen.availHeight / 8 * 5));
 };
 openSubTranslator();
